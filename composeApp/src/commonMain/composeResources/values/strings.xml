@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <!-- App -->
+    <string name="app_name">GoldenbootFinancial</string>
+
+    <!-- Tab titles -->
+    <string name="tab_title_dashboard">Dashboard</string>
+    <string name="tab_title_cashflow">CashFlow</string>
+    <string name="tab_title_payroll">Payroll</string>
+    <string name="tab_title_paycheckplan">Plan</string>
+    <string name="tab_title_investments">Invest</string>
+    <string name="tab_title_profile">Profile</string>
+
+    <!-- Drawer -->
+    <string name="drawer_menu_title">Menu</string>
+    <string name="drawer_logout">Log out</string>
+    <string name="drawer_label_dashboard">Dashboard</string>
+    <string name="drawer_label_cashflow">Cash Flow</string>
+    <string name="drawer_label_payroll">Payroll &amp; Payday</string>
+    <string name="drawer_label_paycheckplan">Paycheck Plan</string>
+    <string name="drawer_label_investments">Investments</string>
+    <string name="drawer_label_profile">Profile</string>
+
+    <!-- Sign in -->
+    <string name="sign_in_title">Golden Boot Financial</string>
+    <string name="sign_in_subtitle">Sign in to see your accounts, score, and Game Plan in one place.</string>
+    <string name="sign_in_button">Sign in</string>
+    <string name="sign_in_opening">Opening sign-in…</string>
+    <string name="sign_in_unavailable">Sign-in is not set up in this build, so there is no account to sign in to.</string>
+    <string name="sign_in_demo">Continue in demo mode</string>
+
+    <!-- Splash -->
+    <string name="app_icon_cd">App Logo</string>
+
+    <!-- Common UI -->
+    <string name="empty_title">No items yet</string>
+    <string name="empty_subtitle">Add items to get started</string>
+    <string name="error_title">Something went wrong</string>
+    <string name="btn_retry">Retry</string>
+</resources>

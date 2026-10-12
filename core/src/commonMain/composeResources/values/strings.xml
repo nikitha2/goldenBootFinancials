@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <!-- Content descriptions -->
+    <string name="cd_menu">Menu</string>
+    <string name="cd_search">Search</string>
+    <string name="search_placeholder">Search…</string>
+</resources>

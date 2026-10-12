@@ -1,0 +1,14 @@
+name: goldenboot-financial
+services:
+  bff:
+    image: goldenboot-bff:latest
+    container_name: goldenboot-bff
+    build: .
+    ports:
+      - "8090:8080"   # host 8090 -> container 8080 (8080/8081 are used locally)
+    environment:
+      BFF_MODE: ${BFF_MODE:-mock}
+      UPSTREAM_BASE_URL: ${UPSTREAM_BASE_URL:-https://api.goldenboot.com}
+      WEB_APP_BASE_URL: ${WEB_APP_BASE_URL:-https://app.goldenbootfinancial.com}
+      BFF_ALLOW_ANONYMOUS: ${BFF_ALLOW_ANONYMOUS:-false}
+      CORS_ALLOWED_ORIGINS: ${CORS_ALLOWED_ORIGINS:-}

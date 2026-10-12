@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <!-- Common UI -->
+    <string name="empty_title">No items yet</string>
+    <string name="empty_subtitle">Add items to get started</string>
+    <string name="error_title">Something went wrong</string>
+    <string name="btn_retry">Retry</string>
+</resources>
